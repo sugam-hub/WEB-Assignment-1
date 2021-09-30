@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Users [
+<!ELEMENT Users (User +)>
+<ELEMENT User(Name, Hobby+, Address)>
+<ELEMENT Name(#PCDATA)>
+<ELEMENT Hobby(#PCDATA)>
+<ELEMENT Address(District, Location)>
+<ELEMENT District(#PCDATA)>
+<ELEMENT Location(#PCDATA)>
+<ATTLIST User Country CDATA #REQUIRED>
+]>
+<Users>
+    <User Country=Nepal>
+        <Name>Sugam Poudel</Name>
+        <Hobby>Cricket</Hobby>
+        <Address>
+            <District>Kathmandu</District>
+            <Location>Nepaltar</Location>
+        </Address>
+    </User>
+
+    <User Country="Nepal">
+         <Name>Anish Sharma</Name>
+         <Hobby>Coding</Hobby>
+         <Hobby>Gaming</Hobby>
+         <Address>
+            <District>Kaski</District>
+            <Location>Pokhara</District>
+         </Address>
+    </User>
+</Users>         

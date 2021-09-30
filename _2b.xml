@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books SYSTEM "_2a.dtd">
+<Books>
+    <Book isbn="5678">
+        <Name>Web Tech</Name>
+        <Author>
+            <Author_Name>Anish Sharma</Author_Name>
+            <Email>anish021@gmail.com</Email>
+        </Author>
+        <Page>200</Page>
+        <Price currency="npr">450</Price>
+        </Book>
+        <Book isbn="12345">
+            <Name>JAVA</Name>
+            <Author>
+                <Author_Name>Niraj Karki</Author_Name>
+                <Email>niraj123@gmail.com</Email>
+            </Author>
+            <Page>100</Page>
+            <Price>400</Price>
+        </Book>
+</Books>
